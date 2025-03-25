@@ -1,5 +1,61 @@
+/* Estilos para a página inicial */
 .container {
-    text-align: center;
-    margin-top: 50px;
+    padding: 20px;
   }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .game-card, .category-card, .promotion-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .game-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #e64a19;
+  }
+  
+  .category-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .category-card h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .promotion-card {
+    background-color: #ffeb3b;
+    text-align: center;
+  }
+  
+
   
